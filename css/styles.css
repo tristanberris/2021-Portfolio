@@ -10177,10 +10177,36 @@ max-height: 90%;
 /* padding-left: 30px;
 padding-right: 30px; */
 }
+#sideNav{
+  padding-right: 0px !important;
+}
 .pf-size{
   max-width: 200px;
   
 }
+.center-text-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.kanban-text {
+  position: absolute;
+  color: black;
+  font-size: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width:300px;
+  max-height:300px;
+  min-width: 300px;
+  min-height: 300px;
+
+  display: none;
+}
+.kanban-text:hover{
+  display: block;
+}
+
 
 @media (min-width: 768px) {
   section.resume-section {
